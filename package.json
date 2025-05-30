@@ -1,0 +1,37 @@
+{
+    "name": "deals-finder",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "pripremi": "npm install && npm run build"
+    },
+    "dependencies": {
+        "@nextui-org/react": "^2.4.6",
+        "@tensorflow/tfjs": "^4.11.0",
+        "@vercel/blob": "^1.1.1",
+        "bcrypt": "^5.1.1",
+        "formidable": "^3.5.1",
+        "framer-motion": "^11.3.2",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.11.0",
+        "next": "14.2.5",
+        "next-auth": "^4.24.7",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-hot-toast": "^2.4.1",
+        "react-toastify": "^10.0.5",
+        "sonner": "^1.5.0",
+        "upscaler": "^1.0.0-beta.19"
+    },
+    "devDependencies": {
+        "eslint": "^8",
+        "eslint-config-next": "14.2.5",
+        "postcss": "^8",
+        "react-rating-stars-component": "^2.2.0",
+        "tailwindcss": "^3.4.1"
+    }
+}
